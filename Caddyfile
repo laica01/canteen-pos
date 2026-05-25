@@ -1,0 +1,9 @@
+{
+    frankenphp
+    auto_https off
+}
+
+:{$PORT} {
+    root * /app
+    php_server
+}
