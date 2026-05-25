@@ -9,11 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # For sending HTTP requests to your PHP API
   http: ^1.2.0
-
-  # For saving login info on the phone so user stays logged in
   shared_preferences: ^2.2.0
 
 dev_dependencies:
