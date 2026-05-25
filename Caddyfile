@@ -5,5 +5,7 @@
 
 :{$PORT} {
     root * /app
-    php_server
+    route {
+        php_server
+    }
 }
