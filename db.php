@@ -1,10 +1,10 @@
 <?php
 $conn = new mysqli(
-    getenv('MYSQLHOST'),
-    getenv('MYSQLUSER'),
-    getenv('MYSQLPASSWORD'),
-    getenv('MYSQLDATABASE'),
-    (int)getenv('MYSQLPORT')
+    "mysql.railway.internal",
+    "root",
+    "bdrjnEM0lhWrsONVHzhsSfyeAIMbQGkK",
+    "railway",
+    3306
 );
 if($conn->connect_error){
     die(json_encode(["error" => $conn->connect_error]));
